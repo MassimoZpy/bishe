@@ -1,0 +1,4 @@
+dataset_file,rows,purpose
+exp1_platform_adoption_effect.csv,3,Experiment 1: platform adoption short/mid-term effect evidence
+exp2_governance_mechanism_features.csv,6,Experiment 2: governance and mechanism comparison
+exp3_equity_and_distribution_metrics.csv,7,Experiment 3: equity/distribution metrics
