@@ -1,0 +1,4 @@
+experiment_id,study,year,platform_focus,sample_maintainers,sample_sponsors,sample_relations,window,core_finding,effect_tag,source_url
+EXP1,GitHub Sponsors in github events,2021,GitHub Sponsors,8028,13555,22515,Short-run,Developer activity changed in a short-lived and mild positive way after sponsorship,short_term_positive_not_persistent,https://arxiv.org/abs/2102.10097
+EXP1,Understanding donation events and donor characteristics in OpenCollective,2021,Open Collective,,,,Cross-sectional,Individual donors showed higher stickiness than organization donors and donation dynamics differ by donor type,mechanism_difference,https://arxiv.org/abs/2103.09334
+EXP1,Developer support uptake from social media campaigns,2024,GitHub Sponsors,,,,Event window,Only about two-fifths of developers seeking sponsorship received donations and social exposure was associated with measurable shocks,exposure_sensitive,https://arxiv.org/abs/2401.04352

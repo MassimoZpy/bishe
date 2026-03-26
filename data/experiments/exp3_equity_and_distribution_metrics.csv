@@ -1,0 +1,8 @@
+experiment_id,study,year,metric,value,unit,dimension,source_url
+EXP3,Understanding donation events and donor characteristics in OpenCollective,2021,organization_single_donation_median,25,USD,conversion,https://arxiv.org/abs/2103.09334
+EXP3,Understanding donation events and donor characteristics in OpenCollective,2021,individual_single_donation_median,5,USD,conversion,https://arxiv.org/abs/2103.09334
+EXP3,Understanding donation events and donor characteristics in OpenCollective,2021,project_total_donation_median_from_individuals,833,USD,stability,https://arxiv.org/abs/2103.09334
+EXP3,Understanding donation events and donor characteristics in OpenCollective,2021,project_total_donation_median_from_organizations,550,USD,stability,https://arxiv.org/abs/2103.09334
+EXP3,Understanding donation events and donor characteristics in OpenCollective,2021,individual_donor_stickiness_median,0.60,ratio,stability,https://arxiv.org/abs/2103.09334
+EXP3,Understanding donation events and donor characteristics in OpenCollective,2021,organization_donor_stickiness_median,0.33,ratio,stability,https://arxiv.org/abs/2103.09334
+EXP3,Understanding donation events and donor characteristics in OpenCollective,2021,max_non_engineering_expense_item_share,54,percent,governance,https://arxiv.org/abs/2103.09334

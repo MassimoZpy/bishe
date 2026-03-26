@@ -1,0 +1,7 @@
+experiment_id,platform,metric,metric_value,unit,interpretation,source_url
+EXP2,GitHub Sponsors,platform_fee_to_maintainer,0,percent,No processing fee for sponsorship funds to developers in standard flow,https://docs.github.com/en/sponsors/getting-started-with-github-sponsors/about-github-sponsors-for-open-source-contributors
+EXP2,GitHub Sponsors,sponsorship_types,"monthly, one-time",category,Supports recurring and one-time payments,https://docs.github.com/en/sponsors/sponsoring-open-source-contributors/about-sponsorships-fees-and-taxes
+EXP2,GitHub Sponsors,organization_sponsorship_support,1,binary,Organizations can sponsor via invoiced billing,https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-github-sponsors/about-billing-for-github-sponsors
+EXP2,Open Collective,fiscal_host_model,1,binary,Funds are legally and financially managed by fiscal hosts,https://documentation.opencollective.com/fiscal-hosts/introduction-to-fiscal-hosting
+EXP2,Open Collective,ledger_transparency,1,binary,Income and expenses can be displayed publicly with transaction-level records,https://documentation.opencollective.com/help/collectives/budget
+EXP2,Open Source Collective,host_fee_rate,10,percent,Open Source Collective public baseline host fee example,https://docs.oscollective.org/welcome-and-introduction-to-osc/our-fees
