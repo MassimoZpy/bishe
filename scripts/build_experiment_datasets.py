@@ -13,19 +13,23 @@ def count_rows(csv_path: Path) -> int:
         return max(sum(1 for _ in f) - 1, 0)
 
 
+def infer_purpose(file_name: str) -> str:
+    if "exp1" in file_name or "rq1" in file_name:
+        return "Experiment 1 / RQ1: PSM + DID platform adoption effect"
+    if "exp2" in file_name or "rq2" in file_name:
+        return "Experiment 2 / RQ2: governance transparency & compliance indices"
+    if "exp3" in file_name or "rq3" in file_name:
+        return "Experiment 3 / RQ3: fairness, concentration, and mismatch metrics"
+    return "Other experiment-support dataset"
+
+
 def main() -> None:
-    files = sorted(p for p in DATA_DIR.glob("exp*.csv") if p.name != INDEX_FILE.name)
+    files = sorted(p for p in DATA_DIR.glob("*.csv") if p.name != INDEX_FILE.name)
     with INDEX_FILE.open("w", encoding="utf-8", newline="") as out:
         writer = csv.writer(out)
         writer.writerow(["dataset_file", "rows", "purpose"])
         for file in files:
-            if "exp1" in file.name:
-                purpose = "Experiment 1: platform adoption short/mid-term effect evidence"
-            elif "exp2" in file.name:
-                purpose = "Experiment 2: governance and mechanism comparison"
-            else:
-                purpose = "Experiment 3: equity/distribution metrics"
-            writer.writerow([file.name, count_rows(file), purpose])
+            writer.writerow([file.name, count_rows(file), infer_purpose(file.name)])
 
 
 if __name__ == "__main__":
